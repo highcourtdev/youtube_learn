@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Box, Stack, Typography} from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import { Sidebar } from "./";
 
 const Feed = () => {
@@ -12,6 +12,11 @@ const Feed = () => {
         <Sidebar />
         <Typography className="copyright" variant="body2" sx={{ mt:1.5, color:'#fff'}}>
           Copyright 2022 JSM Media
+        </Typography>
+      </Box>
+      <Box>
+        <Typography varient="h4" fontWeight="bold" mb={2} sx={{color:'white'}} >
+          New <span style={{ color: "#F31503"}}>videos</span>
         </Typography>
       </Box>
     </Stack>
